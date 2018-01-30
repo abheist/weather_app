@@ -4390,6 +4390,10 @@ onetime@^2.0.0:
   dependencies:
     mimic-fn "^1.0.0"
 
+openweather-apis@^3.3.5:
+  version "3.3.5"
+  resolved "https://registry.yarnpkg.com/openweather-apis/-/openweather-apis-3.3.5.tgz#3d3d3228151c123091a8c235598017143b59bcc5"
+
 opn@5.2.0, opn@^5.1.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/opn/-/opn-5.2.0.tgz#71fdf934d6827d676cecbea1531f95d354641225"
@@ -5136,7 +5140,7 @@ react-dev-utils@^5.0.0:
     strip-ansi "3.0.1"
     text-table "0.2.0"
 
-react-dom@16.2.0:
+react-dom@^16.2.0:
   version "16.2.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.2.0.tgz#69003178601c0ca19b709b33a83369fe6124c044"
   dependencies:
@@ -5193,7 +5197,7 @@ react-scripts@1.1.0:
   optionalDependencies:
     fsevents "1.1.2"
 
-react@16.2.0:
+react@^16.2.0:
   version "16.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.2.0.tgz#a31bd2dab89bff65d42134fa187f24d054c273ba"
   dependencies:
