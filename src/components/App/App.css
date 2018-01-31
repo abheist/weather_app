@@ -16,8 +16,9 @@ body {
     display: flex;
     justify-content: center;
     height: 300px;
-    background: #6487fb;
     align-items: flex-start;
+    background-color: #6487fb;
+    background-repeat: round space;
 }
 
 .header h1 {
@@ -38,10 +39,10 @@ body {
 }
 
 .container {
-    background: #ffc730;
     min-height: calc(100vh - 300px);
     display: flex;
     justify-content: center;
+    background-color: #ffc730;
 }
 
 .container-card {

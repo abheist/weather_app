@@ -6,6 +6,7 @@ class App extends Component {
         return (
             <div className="App">
                 <div className="header">
+                    <div className="app-icon" />
                     <h1>WEATHER APP</h1>
                 </div>
                 <div className="container">
