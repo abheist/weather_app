@@ -4,7 +4,10 @@
 }
 
 body {
-    background: tomato;
+    background: #f3f4fa;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #fff;
 }
 
 /*background colors*/
@@ -27,8 +30,13 @@ body {
 .darkest-blue-bg {
     background-color: #000639;
 }
+/* background color ends¬ */
 
 /*colors*/
+.white {
+    color: #fff;
+}
+
 .lightest-blue {
     color: #f3f4fa;
 }
@@ -136,5 +144,4 @@ body {
 .flex-12 {
     flex: 12;
 }
-
 /*flex classes ends*/
