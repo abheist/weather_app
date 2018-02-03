@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: tomato;
+}
+
+/*background colors*/
+.lightest-blue-bg {
+    background-color: #f3f4fa;
+}
+
+.light-blue-bg {
+    background-color: #b3bcf5;
+}
+
+.blue-bg {
+    background-color: #5c6ac4;
+}
+
+.dark-blue-bg {
+    background-color: #202e78;
+}
+
+.darkest-blue-bg {
+    background-color: #000639;
+}
+
+/*colors*/
+.lightest-blue {
+    color: #f3f4fa;
+}
+
+.light-blue {
+    color: #b3bcf5;
+}
+
+.blue {
+    color: #5c6ac4;
+}
+
+.dark-blue {
+    color: #202e78;
+}
+
+.darkest-blue {
+    color: #000639;
+}
+
+/*flex classes*/
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.align-baseline {
+    align-items: baseline;
+}
+
+.align-stretch {
+    align-items: stretch;
+}
+
+.flex-1 {
+    flex: 1;
+}
+.flex-2 {
+    flex: 2;
+}
+.flex-3 {
+    flex: 3;
+}
+.flex-4 {
+    flex: 4;
+}
+.flex-5 {
+    flex: 5;
+}
+.flex-6 {
+    flex: 6;
+}
+.flex-7 {
+    flex: 7;
+}
+.flex-8 {
+    flex: 8;
+}
+.flex-9 {
+    flex: 9;
+}
+.flex-10 {
+    flex: 10;
+}
+.flex-11 {
+    flex: 11;
+}
+.flex-12 {
+    flex: 12;
+}
+
+/*flex classes ends*/
