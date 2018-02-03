@@ -21,7 +21,7 @@ body {
     background-repeat: round space;
 }
 
-.header h1 {
+.header .current-weather-card {
     margin-top: 65px;
     font-size: 4rem;
     font-weight: 700;
@@ -51,4 +51,24 @@ body {
     background: #fff;
     border-radius: 3px;
     box-shadow: 8px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+.text-shadow {
+    text-shadow: 8px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+.box-shadow {
+    box-shadow: 8px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.margin-top-10 {
+    margin-top: 40px;
+}
+
+.color-white {
+    color: #fff;
 }

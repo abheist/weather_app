@@ -6,8 +6,17 @@ class App extends Component {
         return (
             <div className="App">
                 <div className="header">
-                    <div className="app-icon" />
-                    <h1>WEATHER APP</h1>
+                    <div>
+                        <div className="app-brand">
+                            <div className="logo" />
+                            <h1 className="text-center margin-top-10 color-white">
+                                WEATHER APP
+                            </h1>
+                        </div>
+                        <div className="current-weather-card text-shadow">
+                            20°C
+                        </div>
+                    </div>
                 </div>
                 <div className="container">
                     <div className="container-card">weather card</div>
