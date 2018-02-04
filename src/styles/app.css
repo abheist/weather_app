@@ -9,8 +9,7 @@ html {
 
 body {
     background: #f3f4fa;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: #fff;
     text-shadow: 0;
 }
@@ -28,6 +27,7 @@ body {
 }
 
 /*background colors*/
+
 .lightest-blue-bg {
     background-color: #f3f4fa;
 }
@@ -47,9 +47,11 @@ body {
 .darkest-blue-bg {
     background-color: #000639;
 }
+
 /* background color ends¬ */
 
 /*colors*/
+
 .white {
     color: #fff;
 }
@@ -75,6 +77,7 @@ body {
 }
 
 /*flex classes*/
+
 .flex-row {
     display: flex;
     flex-direction: row;
@@ -132,36 +135,47 @@ body {
 .flex-1 {
     flex: 1;
 }
+
 .flex-2 {
     flex: 2;
 }
+
 .flex-3 {
     flex: 3;
 }
+
 .flex-4 {
     flex: 4;
 }
+
 .flex-5 {
     flex: 5;
 }
+
 .flex-6 {
     flex: 6;
 }
+
 .flex-7 {
     flex: 7;
 }
+
 .flex-8 {
     flex: 8;
 }
+
 .flex-9 {
     flex: 9;
 }
+
 .flex-10 {
     flex: 10;
 }
+
 .flex-11 {
     flex: 11;
 }
+
 .flex-12 {
     flex: 12;
 }
@@ -169,6 +183,7 @@ body {
 .flex-70 {
     flex: 70;
 }
+
 /*flex classes ends*/
 
 .uppercase {
@@ -176,6 +191,19 @@ body {
 }
 
 /* margins starts */
+
+.margin-top-0 {
+    margin-top: 0;
+}
+
+.margin-top--6 {
+    margin-top: -6px;
+}
+
+.margin-top--10 {
+    margin-top: -10px;
+}
+
 .margin-top-10 {
     margin-top: 10px;
 }
@@ -215,9 +243,11 @@ body {
 .margin-top-100 {
     margin-top: 100px;
 }
+
 /* margins ends */
 
 /* font-sizes starts */
+
 .font-14 {
     font-size: 14px;
 }
@@ -237,9 +267,15 @@ body {
 .font-60 {
     font-size: 60px;
 }
+
+.font-90 {
+    font-size: 90px;
+}
+
 /* font-sizes ends*/
 
 /* font weights starts */
+
 .weight-100 {
     font-weight: 100;
 }
@@ -275,6 +311,7 @@ body {
 .weight-900 {
     font-weight: 900;
 }
+
 /* font weights ends */
 
 .text-center {
