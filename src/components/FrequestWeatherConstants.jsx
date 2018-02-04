@@ -23,15 +23,19 @@ class FrequestWeatherConstants extends React.Component {
                     }}
                 >
                     <div>
-                        <p className="font-90 weight-500">23°</p>
+                        <p className="font-90 weight-500">
+                            {this.props.firstParameter.value}
+                        </p>
                         <p className="font-10 margin-top--10 weight-200">
-                            Celsius
+                            {this.props.firstParameter.unit}
                         </p>
                     </div>
                     <div>
-                        <p className="font-60 weight-500">25°</p>
+                        <p className="font-60 weight-500">
+                            {this.props.secondParameter.value}
+                        </p>
                         <p className="font-14 margin-top--6 weight-200">
-                            Feels like
+                            {this.props.secondParameter.unit}
                         </p>
                     </div>
                 </div>
