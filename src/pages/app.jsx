@@ -27,7 +27,17 @@ class App extends React.Component {
                         <div className="flex-4" />
                     </div>
                     <div className="detailed-frequent-parameters">
-                        frequent parameters
+                        <div className="flex-row justify-around align-center">
+                            <div className="frequent-box current-temperature-box">
+                                current-temperature
+                            </div>
+                            <div className="frequent-box current-rainfall-box">
+                                current rainfall
+                            </div>
+                            <div className="frequent-box current-wind-box">
+                                current wind
+                            </div>
+                        </div>
                     </div>
                     <div className="other-parameters">other parameters</div>
                 </div>
