@@ -34,40 +34,43 @@ class App extends React.Component {
                         <div className="flex-row justify-around align-center">
                             <FrequestWeatherConstants
                                 icon={thermometerIcon}
+                                constantType="Temp"
                                 firstParameter={{
                                     unit: "Celsius",
-                                    value: "22°"
+                                    value: "23°"
                                 }}
                                 secondParameter={{
                                     unit: "Feels like",
-                                    value: "18°"
+                                    value: "25°"
                                 }}
                             />
                             <FrequestWeatherConstants
                                 icon={weatherIcon}
+                                constantType="Rainfall"
                                 firstParameter={{
-                                    unit: "Celsius",
-                                    value: "22°"
+                                    unit: "mm",
+                                    value: "20"
                                 }}
                                 secondParameter={{
-                                    unit: "Feels like",
-                                    value: "18°"
+                                    unit: "Chances",
+                                    value: "10%"
                                 }}
                             />
                             <FrequestWeatherConstants
                                 icon={windIcon}
+                                constantType="Wind"
                                 firstParameter={{
-                                    unit: "Celsius",
-                                    value: "22°"
+                                    unit: "m/sec",
+                                    value: "2.16"
                                 }}
                                 secondParameter={{
-                                    unit: "Feels like",
-                                    value: "18°"
+                                    unit: "North-North-East",
+                                    value: "NNE"
                                 }}
                             />
                         </div>
                     </div>
-                    <div className="other-parameters">other parameters</div>
+                    <div className="other-parameters" />
                 </div>
                 <div>
                     <div className="app-brand-container" />

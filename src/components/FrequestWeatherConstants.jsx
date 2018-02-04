@@ -15,7 +15,9 @@ class FrequestWeatherConstants extends React.Component {
                             backgroundRepeat: "no-repeat"
                         }}
                     />
-                    <p className="margin-top-20 font-20">Temp</p>
+                    <p className="margin-top-20 font-20">
+                        {this.props.constantType}
+                    </p>
                 </div>
                 <div
                     style={{
