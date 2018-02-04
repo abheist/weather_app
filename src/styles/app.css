@@ -3,11 +3,16 @@
     padding: 0;
 }
 
+html {
+    background: #5c6ac4;
+}
+
 body {
     background: #f3f4fa;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: #fff;
+    text-shadow: 0;
 }
 
 /*background colors*/
@@ -108,6 +113,10 @@ body {
     align-items: stretch;
 }
 
+.flex-auto {
+    flex: auto;
+}
+
 .flex-1 {
     flex: 1;
 }
@@ -145,3 +154,113 @@ body {
     flex: 12;
 }
 /*flex classes ends*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* margins starts */
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.margin-top-60 {
+    margin-top: 60px;
+}
+
+.margin-top-70 {
+    margin-top: 70px;
+}
+
+.margin-top-80 {
+    margin-top: 80px;
+}
+
+.margin-top-90 {
+    margin-top: 90px;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+/* margins ends */
+
+/* font-sizes starts */
+.font-14 {
+    font-size: 14px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.font-50 {
+    font-size: 50px;
+}
+
+.font-60 {
+    font-size: 60px;
+}
+/* font-sizes ends*/
+
+/* font weights starts */
+.weight-100 {
+    font-weight: 100;
+}
+
+.weight-200 {
+    font-weight: 200;
+}
+
+.weight-300 {
+    font-weight: 300;
+}
+
+.weight-400 {
+    font-weight: 400;
+}
+
+.weight-500 {
+    font-weight: 500;
+}
+
+.weight-600 {
+    font-weight: 600;
+}
+
+.weight-700 {
+    font-weight: 700;
+}
+
+.weight-800 {
+    font-weight: 900;
+}
+
+.weight-900 {
+    font-weight: 900;
+}
+/* font weights ends */
+
+.text-center {
+    text-align: center;
+}
