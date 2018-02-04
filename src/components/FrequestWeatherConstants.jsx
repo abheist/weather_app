@@ -1,4 +1,5 @@
 import React from "react";
+import thermometer from "../images/Thermometer-50.png";
 
 class FrequestWeatherConstants extends React.Component {
     render() {
