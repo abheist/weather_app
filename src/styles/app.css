@@ -15,6 +15,18 @@ body {
     text-shadow: 0;
 }
 
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+
 /*background colors*/
 .lightest-blue-bg {
     background-color: #f3f4fa;
@@ -152,6 +164,10 @@ body {
 }
 .flex-12 {
     flex: 12;
+}
+
+.flex-70 {
+    flex: 70;
 }
 /*flex classes ends*/
 
