@@ -1,5 +1,4 @@
 import React from "react";
-import thermometer from "../images/Thermometer-50.png";
 
 class FrequestWeatherConstants extends React.Component {
     render() {
@@ -10,7 +9,7 @@ class FrequestWeatherConstants extends React.Component {
                         style={{
                             height: 100,
                             width: 100,
-                            backgroundImage: `url(${thermometer})`,
+                            backgroundImage: `url(${this.props.icon})`,
                             backgroundSize: "contain",
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat"

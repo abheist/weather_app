@@ -1,6 +1,9 @@
 import React from "react";
 import "../styles/app.css";
 import logo from "../images/climate/Cloud-Rain-Sun.svg";
+import thermometerIcon from "../images/Thermometer-50.png";
+import weatherIcon from "../images/climate/Cloud-Rain.svg";
+import windIcon from "../images/climate/Wind.svg";
 import FrequestWeatherConstants from "../components/FrequestWeatherConstants";
 
 class App extends React.Component {
@@ -29,9 +32,9 @@ class App extends React.Component {
                     </div>
                     <div className="detailed-frequent-parameters margin-top-60">
                         <div className="flex-row justify-around align-center">
-                            <FrequestWeatherConstants />
-                            <FrequestWeatherConstants />
-                            <FrequestWeatherConstants />
+                            <FrequestWeatherConstants icon={thermometerIcon} />
+                            <FrequestWeatherConstants icon={weatherIcon} />
+                            <FrequestWeatherConstants icon={windIcon} />
                         </div>
                     </div>
                     <div className="other-parameters">other parameters</div>
